@@ -1,0 +1,18 @@
+.user-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.user-list {
+  border-right: 1px solid #ccc;
+  height: 100%;
+  overflow: auto;
+}
+
+.message-list {
+  width: 100px;
+  height: 100%;
+  overflow: auto;
+}
